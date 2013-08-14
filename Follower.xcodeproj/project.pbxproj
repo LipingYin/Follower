@@ -16,13 +16,31 @@
 		190F530D17BB0C34007AE03D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F530C17BB0C34007AE03D /* Default.png */; };
 		190F530F17BB0C34007AE03D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F530E17BB0C34007AE03D /* Default@2x.png */; };
 		190F531117BB0C34007AE03D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F531017BB0C34007AE03D /* Default-568h@2x.png */; };
-		190F531417BB0C34007AE03D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190F531217BB0C34007AE03D /* MainStoryboard.storyboard */; };
-		190F531717BB0C34007AE03D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F531617BB0C34007AE03D /* ViewController.m */; };
+		190F531417BB0C34007AE03D /* FollowerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190F531217BB0C34007AE03D /* FollowerStoryboard.storyboard */; };
 		190F531F17BB0C34007AE03D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190F531E17BB0C34007AE03D /* SenTestingKit.framework */; };
 		190F532017BB0C34007AE03D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190F52FA17BB0C34007AE03D /* UIKit.framework */; };
 		190F532117BB0C34007AE03D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190F52FC17BB0C34007AE03D /* Foundation.framework */; };
 		190F532917BB0C34007AE03D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 190F532717BB0C34007AE03D /* InfoPlist.strings */; };
 		190F532C17BB0C34007AE03D /* FollowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F532B17BB0C34007AE03D /* FollowerTests.m */; };
+		190F534717BB1632007AE03D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F534617BB1632007AE03D /* SettingViewController.m */; };
+		190F535317BB1801007AE03D /* Shadow_Tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F534817BB1801007AE03D /* Shadow_Tabbar@2x.png */; };
+		190F535417BB1801007AE03D /* Bg_NewTip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F534917BB1801007AE03D /* Bg_NewTip@2x.png */; };
+		190F535517BB1801007AE03D /* Indicator_Home_Hit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F534A17BB1801007AE03D /* Indicator_Home_Hit@2x.png */; };
+		190F535617BB1801007AE03D /* Indicator_Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F534B17BB1801007AE03D /* Indicator_Home@2x.png */; };
+		190F535717BB1801007AE03D /* Indicator_SegTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F534C17BB1801007AE03D /* Indicator_SegTab@2x.png */; };
+		190F535817BB1801007AE03D /* Indicator_Setting_Hit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F534D17BB1801007AE03D /* Indicator_Setting_Hit@2x.png */; };
+		190F535917BB1801007AE03D /* Indicator_Setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F534E17BB1801007AE03D /* Indicator_Setting@2x.png */; };
+		190F535A17BB1801007AE03D /* Indicator_Store_Hit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F534F17BB1801007AE03D /* Indicator_Store_Hit@2x.png */; };
+		190F535B17BB1801007AE03D /* Indicator_Store@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F535017BB1801007AE03D /* Indicator_Store@2x.png */; };
+		190F535C17BB1801007AE03D /* Indicator_Tops_Hit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F535117BB1801007AE03D /* Indicator_Tops_Hit@2x.png */; };
+		190F535D17BB1801007AE03D /* Indicator_Tops@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F535217BB1801007AE03D /* Indicator_Tops@2x.png */; };
+		190F536017BB1962007AE03D /* UIViewController+Scorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F535F17BB1962007AE03D /* UIViewController+Scorller.m */; };
+		190F536417BB1A81007AE03D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190F536217BB1A68007AE03D /* QuartzCore.framework */; };
+		190F536717BB1D2E007AE03D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F536617BB1D2E007AE03D /* LoginViewController.m */; };
+		190F536A17BB1D9B007AE03D /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F536917BB1D9A007AE03D /* IndexViewController.m */; };
+		190F536D17BB22B5007AE03D /* HZScrollerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F536C17BB22B5007AE03D /* HZScrollerController.m */; };
+		190F537017BB231B007AE03D /* HZScrollerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F536F17BB231B007AE03D /* HZScrollerBar.m */; };
+		190F537317BB235D007AE03D /* HZScrollerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F537217BB235D007AE03D /* HZScrollerItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +67,39 @@
 		190F530C17BB0C34007AE03D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		190F530E17BB0C34007AE03D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		190F531017BB0C34007AE03D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		190F531317BB0C34007AE03D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		190F531517BB0C34007AE03D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		190F531617BB0C34007AE03D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		190F531317BB0C34007AE03D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/FollowerStoryboard.storyboard; sourceTree = "<group>"; };
 		190F531D17BB0C34007AE03D /* FollowerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollowerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		190F531E17BB0C34007AE03D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		190F532617BB0C34007AE03D /* FollowerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FollowerTests-Info.plist"; sourceTree = "<group>"; };
 		190F532817BB0C34007AE03D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		190F532A17BB0C34007AE03D /* FollowerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowerTests.h; sourceTree = "<group>"; };
 		190F532B17BB0C34007AE03D /* FollowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowerTests.m; sourceTree = "<group>"; };
+		190F534517BB1632007AE03D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		190F534617BB1632007AE03D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		190F534817BB1801007AE03D /* Shadow_Tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shadow_Tabbar@2x.png"; sourceTree = "<group>"; };
+		190F534917BB1801007AE03D /* Bg_NewTip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bg_NewTip@2x.png"; sourceTree = "<group>"; };
+		190F534A17BB1801007AE03D /* Indicator_Home_Hit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator_Home_Hit@2x.png"; sourceTree = "<group>"; };
+		190F534B17BB1801007AE03D /* Indicator_Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator_Home@2x.png"; sourceTree = "<group>"; };
+		190F534C17BB1801007AE03D /* Indicator_SegTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator_SegTab@2x.png"; sourceTree = "<group>"; };
+		190F534D17BB1801007AE03D /* Indicator_Setting_Hit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator_Setting_Hit@2x.png"; sourceTree = "<group>"; };
+		190F534E17BB1801007AE03D /* Indicator_Setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator_Setting@2x.png"; sourceTree = "<group>"; };
+		190F534F17BB1801007AE03D /* Indicator_Store_Hit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator_Store_Hit@2x.png"; sourceTree = "<group>"; };
+		190F535017BB1801007AE03D /* Indicator_Store@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator_Store@2x.png"; sourceTree = "<group>"; };
+		190F535117BB1801007AE03D /* Indicator_Tops_Hit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator_Tops_Hit@2x.png"; sourceTree = "<group>"; };
+		190F535217BB1801007AE03D /* Indicator_Tops@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator_Tops@2x.png"; sourceTree = "<group>"; };
+		190F535E17BB1962007AE03D /* UIViewController+Scorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Scorller.h"; sourceTree = "<group>"; };
+		190F535F17BB1962007AE03D /* UIViewController+Scorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Scorller.m"; sourceTree = "<group>"; };
+		190F536217BB1A68007AE03D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		190F536517BB1D2E007AE03D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		190F536617BB1D2E007AE03D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		190F536817BB1D9A007AE03D /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		190F536917BB1D9A007AE03D /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		190F536B17BB22B5007AE03D /* HZScrollerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZScrollerController.h; sourceTree = "<group>"; };
+		190F536C17BB22B5007AE03D /* HZScrollerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZScrollerController.m; sourceTree = "<group>"; };
+		190F536E17BB231B007AE03D /* HZScrollerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZScrollerBar.h; sourceTree = "<group>"; };
+		190F536F17BB231B007AE03D /* HZScrollerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZScrollerBar.m; sourceTree = "<group>"; };
+		190F537117BB235D007AE03D /* HZScrollerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZScrollerItem.h; sourceTree = "<group>"; };
+		190F537217BB235D007AE03D /* HZScrollerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZScrollerItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190F536417BB1A81007AE03D /* QuartzCore.framework in Frameworks */,
 				190F52FB17BB0C34007AE03D /* UIKit.framework in Frameworks */,
 				190F52FD17BB0C34007AE03D /* Foundation.framework in Frameworks */,
 				190F52FF17BB0C34007AE03D /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +149,7 @@
 		190F52F917BB0C34007AE03D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				190F536217BB1A68007AE03D /* QuartzCore.framework */,
 				190F52FA17BB0C34007AE03D /* UIKit.framework */,
 				190F52FC17BB0C34007AE03D /* Foundation.framework */,
 				190F52FE17BB0C34007AE03D /* CoreGraphics.framework */,
@@ -117,11 +161,16 @@
 		190F530017BB0C34007AE03D /* Follower */ = {
 			isa = PBXGroup;
 			children = (
+				190F534117BB0D09007AE03D /* scrollercontroller */,
 				190F530917BB0C34007AE03D /* AppDelegate.h */,
 				190F530A17BB0C34007AE03D /* AppDelegate.m */,
-				190F531217BB0C34007AE03D /* MainStoryboard.storyboard */,
-				190F531517BB0C34007AE03D /* ViewController.h */,
-				190F531617BB0C34007AE03D /* ViewController.m */,
+				190F531217BB0C34007AE03D /* FollowerStoryboard.storyboard */,
+				190F534517BB1632007AE03D /* SettingViewController.h */,
+				190F534617BB1632007AE03D /* SettingViewController.m */,
+				190F536517BB1D2E007AE03D /* LoginViewController.h */,
+				190F536617BB1D2E007AE03D /* LoginViewController.m */,
+				190F536817BB1D9A007AE03D /* IndexViewController.h */,
+				190F536917BB1D9A007AE03D /* IndexViewController.m */,
 				190F530117BB0C34007AE03D /* Supporting Files */,
 			);
 			path = Follower;
@@ -130,6 +179,17 @@
 		190F530117BB0C34007AE03D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				190F534817BB1801007AE03D /* Shadow_Tabbar@2x.png */,
+				190F534917BB1801007AE03D /* Bg_NewTip@2x.png */,
+				190F534A17BB1801007AE03D /* Indicator_Home_Hit@2x.png */,
+				190F534B17BB1801007AE03D /* Indicator_Home@2x.png */,
+				190F534C17BB1801007AE03D /* Indicator_SegTab@2x.png */,
+				190F534D17BB1801007AE03D /* Indicator_Setting_Hit@2x.png */,
+				190F534E17BB1801007AE03D /* Indicator_Setting@2x.png */,
+				190F534F17BB1801007AE03D /* Indicator_Store_Hit@2x.png */,
+				190F535017BB1801007AE03D /* Indicator_Store@2x.png */,
+				190F535117BB1801007AE03D /* Indicator_Tops_Hit@2x.png */,
+				190F535217BB1801007AE03D /* Indicator_Tops@2x.png */,
 				190F530217BB0C34007AE03D /* Follower-Info.plist */,
 				190F530317BB0C34007AE03D /* InfoPlist.strings */,
 				190F530617BB0C34007AE03D /* main.m */,
@@ -158,6 +218,21 @@
 				190F532717BB0C34007AE03D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		190F534117BB0D09007AE03D /* scrollercontroller */ = {
+			isa = PBXGroup;
+			children = (
+				190F535E17BB1962007AE03D /* UIViewController+Scorller.h */,
+				190F535F17BB1962007AE03D /* UIViewController+Scorller.m */,
+				190F536B17BB22B5007AE03D /* HZScrollerController.h */,
+				190F536C17BB22B5007AE03D /* HZScrollerController.m */,
+				190F536E17BB231B007AE03D /* HZScrollerBar.h */,
+				190F536F17BB231B007AE03D /* HZScrollerBar.m */,
+				190F537117BB235D007AE03D /* HZScrollerItem.h */,
+				190F537217BB235D007AE03D /* HZScrollerItem.m */,
+			);
+			name = scrollercontroller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +310,18 @@
 				190F530D17BB0C34007AE03D /* Default.png in Resources */,
 				190F530F17BB0C34007AE03D /* Default@2x.png in Resources */,
 				190F531117BB0C34007AE03D /* Default-568h@2x.png in Resources */,
-				190F531417BB0C34007AE03D /* MainStoryboard.storyboard in Resources */,
+				190F531417BB0C34007AE03D /* FollowerStoryboard.storyboard in Resources */,
+				190F535317BB1801007AE03D /* Shadow_Tabbar@2x.png in Resources */,
+				190F535417BB1801007AE03D /* Bg_NewTip@2x.png in Resources */,
+				190F535517BB1801007AE03D /* Indicator_Home_Hit@2x.png in Resources */,
+				190F535617BB1801007AE03D /* Indicator_Home@2x.png in Resources */,
+				190F535717BB1801007AE03D /* Indicator_SegTab@2x.png in Resources */,
+				190F535817BB1801007AE03D /* Indicator_Setting_Hit@2x.png in Resources */,
+				190F535917BB1801007AE03D /* Indicator_Setting@2x.png in Resources */,
+				190F535A17BB1801007AE03D /* Indicator_Store_Hit@2x.png in Resources */,
+				190F535B17BB1801007AE03D /* Indicator_Store@2x.png in Resources */,
+				190F535C17BB1801007AE03D /* Indicator_Tops_Hit@2x.png in Resources */,
+				190F535D17BB1801007AE03D /* Indicator_Tops@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +358,13 @@
 			files = (
 				190F530717BB0C34007AE03D /* main.m in Sources */,
 				190F530B17BB0C34007AE03D /* AppDelegate.m in Sources */,
-				190F531717BB0C34007AE03D /* ViewController.m in Sources */,
+				190F534717BB1632007AE03D /* SettingViewController.m in Sources */,
+				190F536017BB1962007AE03D /* UIViewController+Scorller.m in Sources */,
+				190F536717BB1D2E007AE03D /* LoginViewController.m in Sources */,
+				190F536A17BB1D9B007AE03D /* IndexViewController.m in Sources */,
+				190F536D17BB22B5007AE03D /* HZScrollerController.m in Sources */,
+				190F537017BB231B007AE03D /* HZScrollerBar.m in Sources */,
+				190F537317BB235D007AE03D /* HZScrollerItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +395,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		190F531217BB0C34007AE03D /* MainStoryboard.storyboard */ = {
+		190F531217BB0C34007AE03D /* FollowerStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				190F531317BB0C34007AE03D /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = FollowerStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		190F532717BB0C34007AE03D /* InfoPlist.strings */ = {
